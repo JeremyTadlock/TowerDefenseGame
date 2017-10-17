@@ -2,19 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour {
+public class PlayerStats : MonoBehaviour 
+{
 
 	int lives = 10;
 	int coins;
-
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	//all I can think of that the player needs if lives and coins, maybe we could add experience and the user could level up?
 }
